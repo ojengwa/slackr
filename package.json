@@ -26,7 +26,8 @@
   "scripts": {
     "debug": "node debug app.js",
     "start": "node app.js",
-    "test": "node ./node_modules/mocha/bin/mocha test/bootstrap.test.js test/integration/**/*.test.js"
+    "test": "node ./node_modules/mocha/bin/mocha test/bootstrap.test.js test/integration/**/*.test.js",
+    "coverage": "node ./node_modules/.bin/istanbul cover ./node_modules/.bin/mocha -- -R spec"
   },
   "main": "app.js",
   "repository": {
@@ -36,6 +37,7 @@
   "author": "bernard",
   "license": "",
   "devDependencies": {
+    "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "supertest": "^1.2.0"
   }
