@@ -36,6 +36,7 @@
   "author": "bernard",
   "license": "",
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
   }
 }
