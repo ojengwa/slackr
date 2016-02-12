@@ -25,7 +25,8 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "node ./node_modules/mocha/bin/mocha test/bootstrap.test.js test/integration/**/*.test.js"
   },
   "main": "app.js",
   "repository": {
@@ -33,5 +34,8 @@
     "url": "git://github.com/bernard/slackr.git"
   },
   "author": "bernard",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
