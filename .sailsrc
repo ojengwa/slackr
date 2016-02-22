@@ -1,5 +1,7 @@
 {
-  "generators": {
-    "modules": {}
-  }
+    "generators": {
+        "modules": {
+        'sdk': 'sails-sdk'
+        }
+    }
 }
