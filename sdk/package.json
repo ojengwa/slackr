@@ -1,0 +1,32 @@
+{
+    "name": "sails-sdk",
+    "version": "0.10.0",
+    "description": "sails generate sdk",
+    "main": "index.js",
+    "scripts": {
+    "test": "mocha"
+    },
+    "keywords": [
+    "sdk",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+    ],
+    "author": "balderdashy",
+    "license": "MIT",
+    "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0"
+    },
+    "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+    },
+    "sailsGenerator": {
+    "type": "sdk",
+    "behavior": "overrides `sails generate sdk`",
+    "sailsVersion": "~0.10.0"
+    }
+}
